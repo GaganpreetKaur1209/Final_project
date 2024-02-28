@@ -1,0 +1,62 @@
+16:38:41.505 [main] INFO  testBase.BaseClass - Validating Car Loan tenure values
+16:38:41.521 [main] INFO  testBase.BaseClass - Validated tenure scale
+16:38:41.896 [main] INFO  testBase.BaseClass - Clicked on EMI in Arrears
+16:38:42.205 [main] INFO  testBase.BaseClass - Page successfully scrolled down
+16:38:42.780 [main] INFO  testBase.BaseClass - One month interest displayed for EMI in Arrears
+16:38:43.139 [main] INFO  testBase.BaseClass - One month Principal Amount displayed for EMI in Arrears
+16:38:43.342 [main] INFO  testBase.BaseClass - Scrolled up the page
+16:38:43.623 [main] INFO  testBase.BaseClass - Clicked on EMI in Advance
+16:38:43.906 [main] INFO  testBase.BaseClass - Scrolled down the page till table
+16:38:44.407 [main] INFO  testBase.BaseClass - One month interest displayed for EMI in Advance
+16:38:44.754 [main] INFO  testBase.BaseClass - One month Principal Amount displayed for EMI in Advance
+16:38:45.020 [main] INFO  testBase.BaseClass - Scrolled till the top of the page
+16:38:45.020 [main] INFO  testBase.BaseClass - *****Finished TC_001_Carloan *****
+16:38:45.272 [main] INFO  testBase.BaseClass - *****Starting TC_002_HomeLoan *****
+16:38:45.412 [main] INFO  testBase.BaseClass - Clicked on Calculator button
+16:39:41.398 [main] INFO  testBase.BaseClass - Clicked on Home Loan EMI Calculator button
+16:39:51.660 [main] INFO  testBase.BaseClass - Setting Home Loan values
+16:39:55.806 [main] INFO  testBase.BaseClass - Scroll till monthly table
+16:39:55.890 [main] INFO  testBase.BaseClass - Total Monthly Payment is displayed
+16:39:56.173 [main] INFO  testBase.BaseClass - Scroll till total payment table
+16:39:56.254 [main] INFO  testBase.BaseClass - Total of all Payments is displayed
+16:39:56.529 [main] INFO  testBase.BaseClass - Scroll till home loan table
+16:39:59.714 [main] INFO  testBase.BaseClass - Handled the header table
+16:40:09.877 [main] INFO  testBase.BaseClass - Handled the table
+16:40:10.118 [main] INFO  testBase.BaseClass - Scrolled till the top of the page
+16:40:10.119 [main] INFO  testBase.BaseClass - *****Finished TC_002_HomeLoan *****
+16:40:10.353 [main] INFO  testBase.BaseClass - *****Starting TC_003_LoanCalculator *****
+16:40:10.559 [main] INFO  testBase.BaseClass - Clicked on the calculator button
+16:40:13.461 [main] INFO  testBase.BaseClass - Clicked on the loan calculator button
+16:41:58.377 [main] INFO  testBase.BaseClass - *****Starting TC_001_Carloan *****
+16:42:08.662 [main] INFO  testBase.BaseClass - Validating Car Loan amount values
+16:42:08.662 [main] INFO  testBase.BaseClass - Amount scale Test failed
+16:42:08.831 [main] INFO  testBase.BaseClass - Setting Interest rate values
+16:42:19.059 [main] INFO  testBase.BaseClass - Validating Interest rate values
+16:42:19.060 [main] INFO  testBase.BaseClass - Interest scale Test failed
+16:42:19.178 [main] INFO  testBase.BaseClass - Setting Car Loan tenure values
+16:42:39.245 [main] INFO  testBase.BaseClass - Validating Car Loan tenure values
+16:42:39.246 [main] INFO  testBase.BaseClass - Validated tenure scale
+16:42:49.862 [main] INFO  testBase.BaseClass - Page successfully scrolled down
+16:42:50.391 [main] INFO  testBase.BaseClass - One month interest displayed for EMI in Arrears
+16:42:50.768 [main] INFO  testBase.BaseClass - One month Principal Amount displayed for EMI in Arrears
+16:42:51.023 [main] INFO  testBase.BaseClass - Scrolled up the page
+16:43:01.553 [main] INFO  testBase.BaseClass - Scrolled down the page till table
+16:43:01.909 [main] INFO  testBase.BaseClass - One month interest displayed for EMI in Advance
+16:43:02.209 [main] INFO  testBase.BaseClass - One month Principal Amount displayed for EMI in Advance
+16:43:02.473 [main] INFO  testBase.BaseClass - Scrolled till the top of the page
+16:43:02.473 [main] INFO  testBase.BaseClass - *****Finished TC_001_Carloan *****
+16:43:02.664 [main] INFO  testBase.BaseClass - *****Starting TC_002_HomeLoan *****
+16:43:02.813 [main] INFO  testBase.BaseClass - Clicked on Calculator button
+16:43:09.226 [main] INFO  testBase.BaseClass - Clicked on Home Loan EMI Calculator button
+16:43:19.418 [main] INFO  testBase.BaseClass - Setting Home Loan values
+16:44:52.945 [main] INFO  testBase.BaseClass - *****Starting TC_001_Carloan *****
+16:44:53.045 [main] INFO  testBase.BaseClass - Clicked on Car Loan
+16:44:53.268 [main] INFO  testBase.BaseClass - Setting Car Loan amount values
+16:44:53.688 [main] INFO  testBase.BaseClass - Validating Car Loan amount values
+16:44:53.693 [main] INFO  testBase.BaseClass - Validated amount scale
+16:44:53.855 [main] INFO  testBase.BaseClass - Setting Interest rate values
+16:44:54.557 [main] INFO  testBase.BaseClass - Validating Interest rate values
+16:44:54.558 [main] INFO  testBase.BaseClass - Validated interest scale
+16:44:54.729 [main] INFO  testBase.BaseClass - Setting Car Loan tenure values
+16:44:55.041 [main] INFO  testBase.BaseClass - Validating Car Loan tenure values
+16:44:55.041 [main] INFO  testBase.BaseClass - Validated tenure scale
