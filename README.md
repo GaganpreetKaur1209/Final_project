@@ -1,6 +1,6 @@
 # Finding the interest amount for current year 
 
-[github link](https://github.com/Nikita0712/hackathon.git)
+[github link](https://github.com/GaganpreetKaur1209/Final_project.git)
 
 ## Problem Statement : Find the Interest Amount for current year
  
@@ -53,22 +53,27 @@ https://emicalculator.net/
 ### Folder Structure
 
 This Project Uses Page Object Model
+
+
+<img width="194" alt="Screenshot 2024-02-29 152118" src="https://github.com/GaganpreetKaur1209/Final_project/assets/141823661/9933f3b0-3ee9-4685-a78c-5313dcfbbb89">
+
+
  
 ### POM- Page Object Model
 
 #### src/test/java -
 
-* PageObjects package - contains page elements and methods for all pages in application.
+* pageObjects package - contains page elements and methods for all pages in application.
 
-* stepDefinations package - contains stepDefination and hooks files for cucumber.
+* stepDefinitions package - contains stepDefination and hooks files for cucumber.
 
-* TestBase package - contains BaseClass file which have setup and teardown methods.
+* testBase package - contains BaseClass file which have setup and teardown methods.
 
-* TestCases package - contains all the required test cases for the application.
+* testCases package - contains all the required test cases for the application.
 
-* TestRunner package - contains Testrun file for executing testcases through cucumber.
+* testRunner package - contains Testrun file for executing testcases through cucumber.
 
-* Utilities package - contains Excel and ExtentReport files for testNG.
+* utilities package - contains Excel and ExtentReport files for testNG.
  
 #### src/test/resources -
 
@@ -81,6 +86,9 @@ This Project Uses Page Object Model
 #### Features folder - 
 
 Contains feature file which have scenarios for cucumber.
+* CarLoan.feature
+* HomeLoan.feature
+* LoanCalculator.feature
  
  
 ### Reporting
@@ -95,15 +103,15 @@ The framework gives report in three ways,
  
 ###  Test Cases
 
-* Tc_001_carLoanTest.java
+* TC_001_CarLoan.java
 
-* Tc_002_homeLoanTest.java
+* TC_002_HomeLoan.java
 
-* Tc_003_LoanTest.java
+* TC_003_LoanCalculator.java
  
 ### How to run project
 
-* Through TestNG - run the file testng.xml or crossBrowser.xml(for multiple browser execution) as TestNg suite.
+* Through TestNG - run the file testng.xml as TestNg suite.
 
 * Through Cucumber - run the fie TestRun.xml as Junit Test.
 
