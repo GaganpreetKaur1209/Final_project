@@ -65,10 +65,10 @@ public class ExtentReportManager implements ITestListener {
 	}
  
 	public void onTestSuccess(ITestResult result) {
-		test = extent.createTest(result.getName());//from result getclass get name of class
+		test = extent.createTest(result.getName());
 		test.assignCategory(result.getMethod().getGroups()); // to display groups in report
 		test.log(Status.PASS,result.getName()+" got successfully executed");
-		test.log(Status.INFO,"this test belong to class:"+ result.getTestClass().getName());
+		test.log(Status.INFO,"this test belong to class:"+ result.getTestClass().getName());//from result getclass get name of class 
 		String imgPath = new BaseClass().captureScreen(result.getName());//providing same name as method name to screenshot
 		test.addScreenCaptureFromPath(imgPath);//adding image path to report
 	}

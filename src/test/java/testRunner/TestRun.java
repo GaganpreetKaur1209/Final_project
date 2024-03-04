@@ -12,7 +12,7 @@ import io.cucumber.junit.CucumberOptions;
 
 //if you want all feature file just pass folder name
 //if you have some more feature file put , and give name
-//glue keyword used to step definition file
+//glue keyword used for step definition file
 //rerun use to run the failure test cases
 
 @RunWith(Cucumber.class)

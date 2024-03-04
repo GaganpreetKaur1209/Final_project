@@ -16,7 +16,7 @@ public class Hooks {
 //    public void setup() throws IOException
 //    {
 //	 BaseClass bclass = new BaseClass();
-//	 bclass.driverSetup("chrome");			
+//	 bclass.setup("windows","chrome");			
 //	}
     @AfterAll
     public static void After_All()

@@ -4,6 +4,40 @@
   <artifactId>Hackathon_project</artifactId>
   <version>0.0.1-SNAPSHOT</version>
 
+
+ <build>
+    <pluginManagement>
+      <plugins>
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-compiler-plugin</artifactId>
+          <version>3.12.1</version>
+
+        </plugin>
+        
+         <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-surefire-plugin</artifactId>
+          
+           <configuration>
+            <!-- put your configurations here -->
+          <suiteXmlFiles>
+          
+          <suiteXmlFile>testng.xml</suiteXmlFile>
+          
+          </suiteXmlFiles>
+          </configuration>
+
+          <version>3.2.5</version>
+        </plugin>
+        
+      </plugins>
+    </pluginManagement>
+  </build>
+
+
+
+
    <dependencies>
 
   <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
@@ -100,6 +134,7 @@
     <scope>test</scope>
 </dependency>
 
+<!--cucumber extentreport-->
 <dependency>
     <groupId>tech.grasshopper</groupId>
     <artifactId>extentreports-cucumber7-adapter</artifactId>
