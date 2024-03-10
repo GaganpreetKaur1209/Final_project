@@ -121,7 +121,7 @@ The framework gives report in three ways,
 
 * Through Selenium grid -
 
-  set environment as remote extent.properties
+  set environment as remote config.properties
 
   run the project in command prompt using following commands : java -jar (selenium-file-name) standalone
 
