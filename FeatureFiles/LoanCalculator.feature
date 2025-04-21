@@ -1,6 +1,5 @@
 Feature: Loan Calculator
 
-  @sanity
   Scenario Outline: EMI Loan Calculator
     When user clicks calculator button and Loan Calculator and under EMI calculator
     Then user validates EMI UI check for textbox and scales

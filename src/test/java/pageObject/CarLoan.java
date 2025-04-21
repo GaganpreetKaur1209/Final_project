@@ -12,7 +12,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class CarLoan extends basePage{
 	
-	static int rupees;
+	//static int rupees;
 	
 	public CarLoan(WebDriver driver) {
 		super(driver);
@@ -51,13 +51,13 @@ public class CarLoan extends basePage{
 	@FindBy(id="emipaymenttable")
 	WebElement table;
 	
-	@FindBy(id="year2024")
+	@FindBy(id="year2025")
 	WebElement year;
 	
-	@FindBy(xpath="//*[@id='monthyear2024']/td/div/table/tbody/tr[1]/td[2]")
+	@FindBy(xpath="//*[@id='emipaymenttable']/table/tbody/tr[2]/td[2]")
 	WebElement paEMI;
 	
-	@FindBy(xpath="//*[@id='monthyear2024']/td/div/table/tbody/tr[1]/td[3]")
+	@FindBy(xpath="//*[@id='emipaymenttable']/table/tbody/tr[2]/td[3]")
 	WebElement interestEMI;
 	
 	@FindBy(id="leschemewrapper")

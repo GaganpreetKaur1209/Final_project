@@ -19,12 +19,12 @@ public class TC_002_HomeLoan extends BaseClass {
 		BaseClass.getlogger().info("Clicked on Calculator button");
 		hl.clickhomeloanbtn();
 		BaseClass.getlogger().info("Clicked on Home Loan EMI Calculator button");
-		try {
-			driver.findElement(By.id("card")).isDisplayed();
-			driver.findElement(By.xpath("//*[@id='dismiss-button']/div")).click();
-		}
-		catch(Exception e) {
-		}
+//		try {
+//			driver.findElement(By.id("card")).isDisplayed();
+//			driver.findElement(By.xpath("//*[@id='dismiss-button']/div")).click();
+//		}
+//		catch(Exception e) {
+//		}
 		}
 	
 	

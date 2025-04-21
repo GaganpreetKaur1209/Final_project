@@ -1,6 +1,5 @@
 Feature: Home Loan
 
-  @sanity
   Scenario Outline: EMI Calculator for Home Loan
     When user clicks on calculator button and home loan button
     And user then sets Home Loan values
