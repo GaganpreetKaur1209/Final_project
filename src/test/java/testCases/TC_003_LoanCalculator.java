@@ -36,7 +36,7 @@ public class TC_003_LoanCalculator extends BaseClass {
 			Assert.fail();
 			BaseClass.getlogger().info("Loan amount value has failed");
 		}
-		//Assert.assertEquals(loanamountvalue, true);
+		
 		boolean loanamountscale=lc.checkLoanAmountScale();
 		if(loanamountscale==true) {
 			Assert.assertTrue(true);
@@ -46,7 +46,7 @@ public class TC_003_LoanCalculator extends BaseClass {
 			Assert.fail();
 			BaseClass.getlogger().info("Loan amount scale has failed");
 		}
-		//Assert.assertEquals(loanamountscale, true);
+		
 		boolean loaninterestvalue=lc.checkLoanInterestTextBox();
 		if(loaninterestvalue==true) {
 			Assert.assertTrue(true);
@@ -56,7 +56,7 @@ public class TC_003_LoanCalculator extends BaseClass {
 			Assert.fail();
 			BaseClass.getlogger().info("Loan interest value has failed");
 		}
-		//Assert.assertEquals(loaninterestvalue, true);
+		
 		boolean loaninterestscale=lc.checkLoanInterestScale();
 		if(loaninterestscale==true) {
 			Assert.assertTrue(true);
@@ -66,7 +66,7 @@ public class TC_003_LoanCalculator extends BaseClass {
 			Assert.fail();
 			BaseClass.getlogger().info("Loan interest scale has failed");
 		}
-		//Assert.assertEquals(loaninterestscale, true);
+	
 		boolean loantermvalue=lc.checkLoanTermTextBox();
 		if(loantermvalue==true) {
 			Assert.assertTrue(true);
@@ -76,7 +76,7 @@ public class TC_003_LoanCalculator extends BaseClass {
 			Assert.fail();
 			BaseClass.getlogger().info("Loan term value has failed");
 		}
-		//Assert.assertEquals(loantermvalue, true);
+		
 		boolean loantermscale=lc.checkLoanTermScale();
 		if(loantermscale==true) {
 			Assert.assertTrue(true);
@@ -86,7 +86,7 @@ public class TC_003_LoanCalculator extends BaseClass {
 			Assert.fail();
 			BaseClass.getlogger().info("Loan term scale has failed");
 		}
-		//Assert.assertEquals(loantermscale, true);
+		
 		boolean loanfeesvalue=lc.checkLoanFeesTextBox();
 		if(loanfeesvalue==true) {
 			Assert.assertTrue(true);
@@ -96,7 +96,7 @@ public class TC_003_LoanCalculator extends BaseClass {
 			Assert.fail();
 			BaseClass.getlogger().info("Loan fees value has failed");
 		}
-		//Assert.assertEquals(loanfeesvalue, true);
+		
 		boolean loanfeesscale=lc.checkLoanFeesScale();
 		if(loanfeesscale==true) {
 			Assert.assertTrue(true);
@@ -106,7 +106,7 @@ public class TC_003_LoanCalculator extends BaseClass {
 			Assert.fail();
 			BaseClass.getlogger().info("Loan fees scale has failed");
 		}
-		//Assert.assertEquals(loanfeesscale, true);
+		
 	}
 	
 	@Test(priority=28)

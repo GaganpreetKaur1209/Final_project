@@ -1,6 +1,5 @@
 Feature: Car Loan
 
-  @sanity
   Scenario Outline: EMI Calculator for Car Loan
     Given User opens the  emicalculator.net
     And user clicks on the Car Loan button

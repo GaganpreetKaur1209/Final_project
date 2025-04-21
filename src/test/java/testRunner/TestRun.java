@@ -19,19 +19,19 @@ import io.cucumber.junit.CucumberOptions;
 @CucumberOptions(
 		features= {".//FeatureFiles"},
 		glue="stepDefinitions",
-		plugin= {"pretty",
-				"html:reports/myreportCucumber.html",
-				"rerun:target/rerun.txt",
-				"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"
+		plugin= {"pretty",  //console output
+				"html:reports/myreportCucumber.html", //name of report
+				"rerun:target/rerun.txt", //run fail scenarios only
+				"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:" //for generating report there is no listener it is used to generate report
 				},
 		//tags="@sanity",
 		
 		//actual execution not done if dry run is true
-		//dryRun=false,//to check every methods in feature file is implemented in  step definition
-		//monochrome = true,//remove junk characters from console output
-		publish=true,//share report to team gives url of report on console
+		dryRun=false,//to check every methods in feature file is implemented in  step definition
+		monochrome = true,//remove junk characters from console output
+		publish=true//share report to team gives url of report on console
 		
-		tags="@sanity"//this will execute scenarios tagged with sanity in feature files
+	//	tags="@sanity"//this will execute scenarios tagged with sanity in feature files
 
 		)
 public class TestRun{
@@ -39,12 +39,3 @@ public class TestRun{
 
 }
 
-//public class TestRunnerFile extends AbstractTestNGCucumberTests{
-		//@RunWith(Cucumber.class)-comment this
-	 	//AbstractTestNGCucumberTests(import io.cucumber.testng.AbstractTestNGCucumberTests;)
-				//this class use to run your cucumber code through TestNG dirctly
-				// just need to do the implementation directly on Step definition file
-				//rather than making separate TC and calling them in step definition
-//	
-//
-//}

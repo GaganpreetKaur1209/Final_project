@@ -20,7 +20,7 @@
           <artifactId>maven-surefire-plugin</artifactId>
           
            <configuration>
-            <!-- put your configurations here -->
+            <!-- put your configurations here --> 
           <suiteXmlFiles>
           
           <suiteXmlFile>testng.xml</suiteXmlFile>

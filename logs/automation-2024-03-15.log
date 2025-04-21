@@ -1,0 +1,62 @@
+11:23:59.745 [main] INFO  testBase.BaseClass - Loan Tenure scale of Loan Amount Calculator is working
+11:24:00.112 [main] INFO  testBase.BaseClass - Clicked on Loan Tenure Calculator
+11:24:00.486 [main] INFO  testBase.BaseClass - Loan Amount textbox is verified
+11:24:00.534 [main] INFO  testBase.BaseClass - Loan Amount Slider is verified
+11:24:00.582 [main] INFO  testBase.BaseClass - Loan Emi textbox is verified
+11:24:00.629 [main] INFO  testBase.BaseClass - Loan Emi slider is verified
+11:24:00.674 [main] INFO  testBase.BaseClass - Loan Interest textbox is verified
+11:24:00.718 [main] INFO  testBase.BaseClass - Loan Interest slider is verified
+11:24:00.778 [main] INFO  testBase.BaseClass - Loan fees textbox is verified
+11:24:00.832 [main] INFO  testBase.BaseClass - Loan fees slider is verified
+11:24:00.832 [main] INFO  testBase.BaseClass - *****Finished TC_003_LoanCalculator *****
+15:40:32.512 [main] INFO  testBase.BaseClass - *****Starting TC_001_Carloan *****
+15:40:32.635 [main] INFO  testBase.BaseClass - Clicked on Car Loan
+15:40:32.934 [main] INFO  testBase.BaseClass - Setting Car Loan amount values
+15:40:33.464 [main] INFO  testBase.BaseClass - Validating Car Loan amount values
+15:40:33.468 [main] INFO  testBase.BaseClass - Validated amount scale
+15:40:33.648 [main] INFO  testBase.BaseClass - Setting Interest rate values
+15:40:34.416 [main] INFO  testBase.BaseClass - Validating Interest rate values
+15:40:34.417 [main] INFO  testBase.BaseClass - Validated interest scale
+15:40:34.593 [main] INFO  testBase.BaseClass - Setting Car Loan tenure values
+15:40:34.970 [main] INFO  testBase.BaseClass - Validating Car Loan tenure values
+15:40:34.971 [main] INFO  testBase.BaseClass - Validated tenure scale
+15:40:35.228 [main] INFO  testBase.BaseClass - Clicked on EMI in Arrears
+15:40:35.463 [main] INFO  testBase.BaseClass - Page successfully scrolled down
+15:40:35.876 [main] INFO  testBase.BaseClass - One month interest displayed for EMI in Arrears
+15:40:36.218 [main] INFO  testBase.BaseClass - One month Principal Amount displayed for EMI in Arrears
+15:40:36.415 [main] INFO  testBase.BaseClass - Scrolled up the page
+15:40:36.616 [main] INFO  testBase.BaseClass - Clicked on EMI in Advance
+15:40:36.851 [main] INFO  testBase.BaseClass - Scrolled down the page till table
+15:40:37.159 [main] INFO  testBase.BaseClass - One month interest displayed for EMI in Advance
+15:40:37.442 [main] INFO  testBase.BaseClass - One month Principal Amount displayed for EMI in Advance
+15:40:37.653 [main] INFO  testBase.BaseClass - Scrolled till the top of the page
+15:40:37.653 [main] INFO  testBase.BaseClass - *****Finished TC_001_Carloan *****
+15:40:37.850 [main] INFO  testBase.BaseClass - *****Starting TC_002_HomeLoan *****
+15:40:37.918 [main] INFO  testBase.BaseClass - Clicked on Calculator button
+15:40:38.869 [main] INFO  testBase.BaseClass - Clicked on Home Loan EMI Calculator button
+15:40:39.065 [main] INFO  testBase.BaseClass - Setting Home Loan values
+15:40:41.650 [main] INFO  testBase.BaseClass - Scroll till monthly table
+15:40:41.698 [main] INFO  testBase.BaseClass - Total Monthly Payment is displayed
+15:40:41.893 [main] INFO  testBase.BaseClass - Scroll till total payment table
+15:40:41.930 [main] INFO  testBase.BaseClass - Total of all Payments is displayed
+15:40:42.129 [main] INFO  testBase.BaseClass - Scroll till home loan table
+15:40:43.413 [main] INFO  testBase.BaseClass - Handled the header table
+15:40:47.861 [main] INFO  testBase.BaseClass - Handled the table
+15:40:47.997 [main] INFO  testBase.BaseClass - Scrolled till the top of the page
+15:40:47.997 [main] INFO  testBase.BaseClass - *****Finished TC_002_HomeLoan *****
+15:40:48.138 [main] INFO  testBase.BaseClass - *****Starting TC_003_LoanCalculator *****
+15:40:48.183 [main] INFO  testBase.BaseClass - Clicked on the calculator button
+15:40:49.209 [main] INFO  testBase.BaseClass - Clicked on the loan calculator button
+15:40:49.271 [main] INFO  testBase.BaseClass - Clicked on the EMI Calculator button
+15:40:49.474 [main] INFO  testBase.BaseClass - Loan amount value is verified
+15:40:49.495 [main] INFO  testBase.BaseClass - Loan amount scale is verified
+15:40:49.515 [main] INFO  testBase.BaseClass - Loan interest value is verified
+15:40:49.537 [main] INFO  testBase.BaseClass - Loan interest scale is verified
+15:40:49.569 [main] INFO  testBase.BaseClass - Loan term value is verified
+15:40:49.589 [main] INFO  testBase.BaseClass - Loan term scale is verified
+15:40:49.609 [main] INFO  testBase.BaseClass - Loan fees value is verified
+15:40:49.625 [main] INFO  testBase.BaseClass - Loan fees scale is verified
+15:40:49.872 [main] INFO  testBase.BaseClass - Loan Tenure scale of EMI Calculator is working
+15:40:50.108 [main] INFO  testBase.BaseClass - Clicked on Loan Amount Calculator
+15:40:50.350 [main] INFO  testBase.BaseClass - Loan EMI textbox is verified
+15:40:50.375 [main] INFO  testBase.BaseClass - Loan EMI scale is verified
